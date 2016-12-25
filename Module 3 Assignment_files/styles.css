@@ -1,0 +1,71 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border:0;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 {
+	font-family: "Lora", serif;
+	color: pink;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	line-height: .75;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #FFB85F;
+}
+
+.navbar-header button.navbar-toggle {
+  margin-top: 10px;
+}
+
+/**Drop-down menu**/
+
+#nav-list a {
+  color: black;
+  line-height: .75;
+  font-size: 1.25em;
+ }
+
+#nav-list a:hover {
+  background: grey;
+  color: black;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-default .navbar-collapse {
+	background-color: grey;
+	border-style: none;
+} 
+
+.separator{
+	border-top: 2px solid solid black;
+	padding: 0;
+	margin: 0;
+}
+
+/**Sections**/
+.section {
+	background-color: grey;
+	padding: 3px 15px 0;
+}
